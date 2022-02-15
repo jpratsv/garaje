@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  height: 250px;
+}
+
+td {
+  text-align: center;
+} /* left, right,center,justify */
+
+table#formato tr:hover {
+  background-color: yellow;
+  color: green;
+}
+
+table#formato tr:nth-child(even) {
+  font-style: italic;
+}
+
+table#segunda td:hover {
+  font-size: 40px; /* cuando pase por encima  cambia size y 												 el color */
+  color: pink;
+}
+
+table#segunda {
+  border: 10px solid red;
+  background-color: yellow;
+  color: green;
+  text-align: center;
+}
